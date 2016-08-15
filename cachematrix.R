@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## This function creates a list of variables that can be used to set or get matrix and inverse of matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   inv. <- NULL
@@ -20,6 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+##This function checks if getInv variable contains any value. If it is empty then inverse is matrix is calculated. 
+##If it is not null which means inverse value has already been calculated and is pulled in.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
